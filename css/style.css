@@ -141,8 +141,17 @@ p {
 }
 
 /* ** footer ** */
+footer {
+	height: 60px;
+}
+
 .contatti {
-	margin-top: 20px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#cuore {
+	color: red;
 }
 
 /* ****** debug ******  */
@@ -183,7 +192,7 @@ p {
 	width: 58%;
 } */
 
-.debug .contatti {
+/* .debug .contatti {
 	height: 60px;
 	background-color: rgb(229, 121, 230);
-}
+} */
