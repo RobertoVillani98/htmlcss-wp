@@ -1,0 +1,95 @@
+/* ** commons ** */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0 80px;
+	margin: 20px;
+}
+
+/* ** header ** */
+.header-top {
+	margin-bottom: 20px;
+}
+
+.header-bottom {
+	margin-bottom: 20px;
+}
+
+/* ** main ** */
+
+main {
+	padding-bottom: 20px;
+	background-color: yellow;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.title-top {
+	margin-bottom: 20px;
+}
+
+.left {
+	float: left;
+}
+
+.links {
+	width: 20%;
+}
+
+.main-content {
+	margin: 0 1%;
+	width: 58%;
+}
+
+.widget {
+	width: 20%;
+}
+
+/* ** footer ** */
+.contatti {
+	margin-top: 20px;
+}
+
+/* ****** debug ******  */
+
+.debug .header-top {
+	height: 90px;
+	background-color: rgb(229, 121, 230);
+}
+
+.debug .header-bottom {
+	height: 400px;
+	background-color: rgb(225, 214, 122);
+}
+
+.debug-main .title-top {
+	width: 100%;
+	height: 50px;
+	background-color: blue;
+}
+
+.debug-main .links,
+.debug-main .widget {
+	width: 20%;
+	height: 500px;
+	background-color: royalblue;
+}
+
+.debug-main .main-content {
+	height: 500px;
+	background-color: red;
+	width: 58%;
+}
+
+.debug .contatti {
+	height: 60px;
+	background-color: rgb(229, 121, 230);
+}
