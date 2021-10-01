@@ -69,10 +69,10 @@ h2 {
 
 /* ** main ** */
 
-main {
+/* main {
 	padding-bottom: 20px;
 	background-color: yellow;
-}
+} */
 
 .clearfix::after {
 	content: "";
@@ -82,6 +82,11 @@ main {
 
 .title-top {
 	margin-bottom: 20px;
+	padding: 20px 0;
+}
+
+h5 {
+	color: grey;
 }
 
 .left {
@@ -89,12 +94,30 @@ main {
 }
 
 .links {
+	height: 500px;
 	width: 20%;
+}
+
+.image {
+	background-image: url("../img/img-1.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 250px;
+	height: 250px;
 }
 
 .main-content {
 	margin: 0 1%;
 	width: 58%;
+}
+
+.image-banner {
+	background-image: url("../img/banner-2.jpg");
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+	background-position-y: -110px;
+	background-size: cover;
 }
 
 .widget {
@@ -125,24 +148,24 @@ main {
 	background-color: rgb(225, 214, 122);
 } */
 
-.debug-main .title-top {
+/* .debug-main .title-top {
 	width: 100%;
 	height: 50px;
 	background-color: blue;
-}
+} */
 
-.debug-main .links,
+/* .debug-main .links,
 .debug-main .widget {
 	width: 20%;
 	height: 500px;
 	background-color: royalblue;
-}
+} */
 
-.debug-main .main-content {
+/* .debug-main .main-content {
 	height: 500px;
 	background-color: red;
 	width: 58%;
-}
+} */
 
 .debug .contatti {
 	height: 60px;
