@@ -41,6 +41,13 @@ a {
 .header-bottom {
 	margin-top: 30px;
 	margin-bottom: 20px;
+	background-image: url("../img/banner.jpg");
+	background-position: center;
+	height: 450px;
+}
+
+.caption {
+	color: white;
 }
 
 /* ** main ** */
@@ -96,10 +103,10 @@ main {
 	line-height: 40px;
 } */
 
-.debug .header-bottom {
-	height: 400px;
+/* .debug .header-bottom {
+	height: 500px;
 	background-color: rgb(225, 214, 122);
-}
+} */
 
 .debug-main .title-top {
 	width: 100%;
