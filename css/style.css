@@ -61,7 +61,7 @@ h2 {
 	width: 55%;
 }
 
-.caption {
+#caption {
 	color: white;
 	padding-left: 50px;
 	width: 50%;
@@ -118,6 +118,22 @@ h5 {
 	width: 100%;
 	background-position-y: -110px;
 	background-size: cover;
+}
+
+.image-right {
+	background-image: url("../img/img-3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 250px;
+	height: 250px;
+}
+
+h3 {
+	margin-top: 20px;
+}
+
+p {
+	margin-top: 10px;
 }
 
 .widget {
